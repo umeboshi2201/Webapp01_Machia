@@ -1,14 +1,7 @@
 <?php
 	session_start();
-<<<<<<< HEAD
 	require_once(dirname(__FILE__).'/../back/pageTrangitionIndex_back.php');
 	require_once(dirname(__FILE__).'/header.php');
-=======
-	require_once(dirname(__FILE__).'/../back/pageTrangitionTop_back.php');
-	require_once(dirname(__FILE__).'/header.php');
-	require_once(dirname(__FILE__).'/../back/regist_back.php');
->>>>>>> ec9650112f1b87bff8709099021c5a376194eb41
-
 ?>
 <!DOCTYPE html>
 <html lang="ja">
@@ -33,11 +26,7 @@
 		print('<p style="color: red;">既にそのIDは利用されています</p>');
 	}
 ?>
-<<<<<<< HEAD
 <form action="regist_back.php" method="post">
-=======
-<form action="login_back.php" method="post">
->>>>>>> ec9650112f1b87bff8709099021c5a376194eb41
 <h1>ID</h1>
 <p><input type="text" name="user_name" size="40"></p>
 <h1>Password</h1>
